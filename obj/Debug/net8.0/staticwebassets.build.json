@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "De56rByYq6hmzVnv5YnT0A51UT73PgXXexSfHeQwThc=",
+  "Source": "SapSalesIntegrationNew",
+  "BasePath": "_content/SapSalesIntegrationNew",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

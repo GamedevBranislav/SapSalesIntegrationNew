@@ -1,0 +1,6 @@
+@SapSalesIntegrationNew_HostAddress = http://localhost:5122
+
+GET {{SapSalesIntegrationNew_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

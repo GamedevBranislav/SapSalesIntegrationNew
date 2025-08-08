@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "SapSalesIntegrationNew.SalesOrdersController",
+    "Method": "GetSalesOrder",
+    "RelativePath": "api/SalesOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SapSalesIntegrationNew.SalesOrdersController",
+    "Method": "CreateSalesOrder",
+    "RelativePath": "api/SalesOrders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "order",
+        "Type": "SapSalesIntegrationNew.Models.SalesOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SapSalesIntegrationNew.SalesOrdersController",
+    "Method": "GetSalesOrder",
+    "RelativePath": "api/SalesOrders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SapSalesIntegrationNew.SalesOrdersController",
+    "Method": "UpdateSalesOrder",
+    "RelativePath": "api/SalesOrders/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedOrder",
+        "Type": "SapSalesIntegrationNew.Models.SalesOrder",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SapSalesIntegrationNew.SalesOrdersController",
+    "Method": "DeleteSalesOrder",
+    "RelativePath": "api/SalesOrders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
